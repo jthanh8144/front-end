@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#heading1{
+    color: blue;
+    color: #00ff00;
+    color: rgb(0, 0, 255);
+    color: rgba(0, 255, 0, 1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+textarea{
+    display: block;
+}
+
+#heading1{
+    border: 4px solid red !important;/*dotted*/
+    border-style: dotted;
+    padding: 10px;
+    padding: 10px 0; /*top-bot right-left*/
+    padding: 10px 10px 10px 10px; /*top right bot left*/
+    margin: 50px;
+    background-color: aqua;
+    display: block;/*inline*/
+    /* width: 500px;
+    height: 100px; */
+}
+
+b, em{
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background-color: papayawhip;
+}
+
+.content{
+    background-color: palegoldenrod;
+    width: 75%;
+    float: left;
+}
+
+.avatar{
+    background-color: greenyellow;
+    width: 25%;
+    float: left;
+}
+
+.info{
+    background-color: aquamarine;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.date{
+    position: relative; /*Lấy vị trí ban đầu làm gốc*/
+    /* position: fixed; /*Lấy góc màn hình làm gốc, luôn luôn hiện ở vị trí đó*/
+    /* position: absolute; /*Lấy element gần nhất có thuộc tính position làm gốc*/
+    /* position: sticky; /*Gần giống fix?*/
+    /*Sử dụng top- left hoặc bot-right*/
+    top: 0px;
+    left: 0px;
+}
